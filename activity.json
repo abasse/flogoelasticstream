@@ -1,5 +1,5 @@
 {
-    "name": "folgoelasticstream",
+    "name": "flogoelasticstream",
     "type": "flogo:activity",
     "ref": "github.com/abasse/flogoelasticstream",
     "version": "0.0.1",
