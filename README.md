@@ -1,5 +1,5 @@
 # Elastic Search stream reader flogo activity
-This activity allows your flogo application to query Elastic Search usinfg a Elastic stream query
+This activity allows your flogo application to query Elastic Search using a Elastic stream query
 
 WORK IN PROGRSS - DO NOT USE FOR PRODUCTION!!!
 

@@ -1,11 +1,11 @@
 {
     "name": "folgoelasticstream",
     "type": "flogo:activity",
-    "ref": "github.com/abasse/folgoelasticstream",
+    "ref": "github.com/abasse/flogoelasticstream",
     "version": "0.0.1",
     "title": "Elastic Search",
     "description": "Elastic Search stream query",
-    "homepage": "https://github.com/abasse/folgoelasticstream",
+    "homepage": "https://github.com/abasse/flogoelasticstream",
       "inputs":[
         {
           "name": "basicAuthUser",
