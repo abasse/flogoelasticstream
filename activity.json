@@ -1,0 +1,42 @@
+{
+    "name": "folgoelasticstream",
+    "type": "flogo:activity",
+    "ref": "github.com/abasse/folgoelasticstream",
+    "version": "0.0.1",
+    "title": "Elastic Search",
+    "description": "Elastic Search stream query",
+    "homepage": "https://github.com/abasse/folgoelasticstream",
+      "inputs":[
+        {
+          "name": "basicAuthUser",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "basicAuthPassword",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "elasticbaseURL",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "elasticQuery",
+          "type": "string",
+          "required": true
+        }
+      ],
+      "outputs": [
+        {
+            "name": "result",
+            "type": "any"
+        },
+        {
+            "name": "hits",
+            "type": "number"
+        }
+      ]
+  }
+  
